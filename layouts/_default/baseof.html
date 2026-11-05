@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ .Title }}</title>
+<meta name="description" content="{{ .Description }}">
+{{ partial "head.html" . }}
+<link rel="stylesheet" href="{{ "assets/css/styles.css" | relURL }}">
+<script src="{{ "assets/js/main.js" | relURL }}" defer></script>
+</head>
+<body>
+{{ partial "header.html" . }}
+{{ block "main" . }}{{- end }}
+{{ partial "footer.html" . }}
+</body>
+</html>

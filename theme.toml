@@ -1,0 +1,11 @@
+name = "Bramblecut"
+license = "Custom, see LICENSE.md"
+licenselink = "https://dreamr-design.github.io/dreamr-web/license"
+description = "Bramblecut Farm, a fictional five-person certified organic vegetable farm on 22 acres of Driftless hillside near Viroqua, Wisconsin. It sells a twenty-week CSA (the Stand Card, Half, Full and Kitchen shares, with pay-in-4 and sliding-scale options), runs an honor-box farm stand, and hosts four farm dinners a year at one long table in the squash field. The whole site is dressed as seed packets and produce crates, printed in two inks on kraft."
+homepage = "https://dreamr-design.github.io/dreamr-web"
+tags = ["farm", "csa", "subscription", "illustrated", "kraft", "retro", "small-business"]
+features = ["responsive", "forms", "ai-chat"]
+min_version = "0.128.0"
+
+[author]
+  name = "Dreamr"

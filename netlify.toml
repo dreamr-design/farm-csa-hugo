@@ -1,0 +1,3 @@
+[build]
+  command = "hugo -s exampleSite --themesDir ../.. --theme repo --minify"
+  publish = "exampleSite/public"
